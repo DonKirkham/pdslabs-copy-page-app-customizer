@@ -1,6 +1,7 @@
 # Copy Page SPFx Application Customizer
 
 ## Summary
+> This solution is forked from the PnP sample: [SPFx Application Customizer to copy modern site pages across sites](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-copy-page) and modified to only show when the page is in Edit mode. It also moves the button to the Page Command bar, just to the right of the Republish button.
 
 This SPFx Application Customizer empowers content authors to **copy modern site pages** across sites with full control over:
 
