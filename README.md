@@ -1,7 +1,7 @@
 # Copy Page SPFx Application Customizer
 
 ## Summary
-> This solution is forked from the PnP sample: [SPFx Application Customizer to copy modern site pages across sites](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-copy-page) and modified to only show when the page is in Edit mode. It also moves the button to the Page Command bar, just to the right of the Republish button.
+> This solution is forked from the PnP sample: [SPFx Application Customizer to copy modern site pages across sites](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-copy-page) by [Ahmad Jad Alhak](https://github.com/ahmad-jad-alhak) and modified to only show when the page is in Edit mode. It also moves the button to the Page Command bar, just to the right of the Republish button.
 
 This SPFx Application Customizer empowers content authors to **copy modern site pages** across sites with full control over:
 
@@ -41,12 +41,14 @@ This SPFx Application Customizer empowers content authors to **copy modern site 
 
 ## Contributors
 
+- [Don Kirkham](https://github.com/DonKirkham)
 - [Ahmad Jad Alhak](https://github.com/ahmad-jad-alhak)
 
 ## Version history
 
 | Version | Date           | Comments                   |
 |---------|----------------|----------------------------|
+| 1.1     | 2025/12/31 | Update when button appears |
 | 1.0     | Initial release| Basic copy page and template |
 
 ## Disclaimer
@@ -58,10 +60,10 @@ This SPFx Application Customizer empowers content authors to **copy modern site 
 ## Minimal Path to Awesome
 
 ```bash
-git clone https://github.com/ahmad-jad-alhak/React-Application-Copy-Page.git
-cd react-application-copy-page
+git clone https://github.com/donkirkham/pdslabs-copy-page-app-customizer.git
+cd pdslabs-copy-page-app-customizer
 npm install
-gulp serve
+gulp serve --nobrowser
 ```
 
 ---
