@@ -1,0 +1,42 @@
+# Build generated files
+dist/
+lib/
+release/
+solution/
+temp/
+*.log
+
+# Node modules
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs/
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rush Stack
+.rush/
+
+# IDEs
+.vscode/settings.json
+.idea/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SPFx
+config/package-solution.json
